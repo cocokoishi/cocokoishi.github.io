@@ -1,0 +1,17 @@
+/* 顶栏背景颜色（含滚动后固定的导航条） */
+#page-header,
+#page-header.nav-fixed,
+#nav {
+  background: #FFF0F6 !important;   /* 顶栏底色：很浅的粉色 */
+  backdrop-filter: blur(10px);      /* 玻璃感，嫌丑可以删掉 */
+}
+
+/* 顶栏里的文字 / 菜单颜色 */
+#page-header #nav a {
+  color: #ff5c8a !important;        /* 粉色文字 */
+}
+
+/* 鼠标悬停菜单时的颜色 */
+#page-header #nav a:hover {
+  color: #ff2e91 !important;
+}
