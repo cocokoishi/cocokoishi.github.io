@@ -1,37 +1,41 @@
 /* =========================
-   顶栏：保持浅粉；修复导航下方“分层底色”条带
-   主题：Butterfly 5.5.2
+   Butterfly 顶栏配色 + 修复导航下方“底色带”
+   目标：上面保持浅粉不变；下面那块不再染色；保留细描边+更明显阴影
    ========================= */
 
-/* 0) 防止之前把背景同时写在 #page-header/#nav 造成“下方多一层底色”
-      这里明确：header 透明，只有 nav 上色 */
+/* 1) Header 容器：透明，避免出现“第二层底色” */
 #page-header,
-#page-header.nav-fixed,
-#page-header.not-top-img {
+#page-header.not-top-img,
+#page-header.nav-fixed {
   background: transparent !important;
-  box-shadow: none !important;
 }
 
-/* 1) 导航条本体：保持不变（浅粉 + 玻璃感） */
-#nav,
-#page-header.nav-fixed #nav {
-  background: #FFF0F6 !important;
-  backdrop-filter: blur(10px);
-  box-shadow: none !important; /* 去掉导致“底色不一样”的阴影/分层 */
-}
-
-/* 2) 清理 Butterfly 常见的伪元素遮罩（会铺出一条淡色/阴影带） */
+/* 清理 header 可能带的遮罩/渐变/阴影 */
 #page-header::before,
 #page-header::after,
 #page-header.not-top-img::before,
 #page-header.not-top-img::after,
 #page-header.nav-fixed::before,
-#page-header.nav-fixed::after,
-#nav::before,
-#nav::after {
+#page-header.nav-fixed::after {
   background: transparent !important;
   box-shadow: none !important;
   filter: none !important;
+}
+
+/* 2) 导航条本体：浅粉 + 玻璃感 + 分隔描边 + 稍重阴影 */
+#nav,
+#page-header.nav-fixed #nav {
+  background: #FFF0F6 !important;
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;  /* 细描边略加深 */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10) !important;    /* 阴影加重 */
+}
+
+/* 避免 nav 伪元素再铺底 */
+#nav::before,
+#nav::after {
+  background: transparent !important;
 }
 
 /* 3) 顶栏文字 / 菜单颜色 */
@@ -39,24 +43,7 @@
   color: #ff5c8a !important;
 }
 
-/* 4) 鼠标悬停菜单时的颜色 */
+/* 4) 悬停颜色 */
 #page-header #nav a:hover {
   color: #ff2e91 !important;
 }
-
-/* =========================
-   （可选）如果你还想让整个页面底层背景也透明，取消注释下面两段
-   注意：这会让页面透出 body/html 的背景或你自定义的背景图
-   ========================= */
-
-/*
-#web_bg {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-#web_bg::before,
-#web_bg::after {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-*/
