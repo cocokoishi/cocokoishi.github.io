@@ -18,8 +18,8 @@
   
   <entry>
     <title>混淆的liltoon增加盗模盗工程文件难度</title>
-    <link href="https://cocokoishi.github.io/2026/01/04/%E6%B7%B7%E6%B7%86%E7%9A%84liltoon-shader-%E5%A2%9E%E5%8A%A0%E7%9B%97%E6%A8%A1%E7%9B%97%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E9%9A%BE%E5%BA%A6/"/>
-    <id>https://cocokoishi.github.io/2026/01/04/%E6%B7%B7%E6%B7%86%E7%9A%84liltoon-shader-%E5%A2%9E%E5%8A%A0%E7%9B%97%E6%A8%A1%E7%9B%97%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E9%9A%BE%E5%BA%A6/</id>
+    <link href="https://cocokoishi.github.io/2026/01/04/liltoon_obf_fackripper/"/>
+    <id>https://cocokoishi.github.io/2026/01/04/liltoon_obf_fackripper/</id>
     <published>2026-01-04T12:23:00.000Z</published>
     <updated>2026-01-05T00:48:00.442Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>EAC现已支持arm windows！！</title>
-    <link href="https://cocokoishi.github.io/2025/12/27/EAC%E7%8E%B0%E5%B7%B2%E6%94%AF%E6%8C%81arm-windows%EF%BC%81%EF%BC%81/"/>
-    <id>https://cocokoishi.github.io/2025/12/27/EAC%E7%8E%B0%E5%B7%B2%E6%94%AF%E6%8C%81arm-windows%EF%BC%81%EF%BC%81/</id>
+    <link href="https://cocokoishi.github.io/2025/12/27/eac_arm_win/"/>
+    <id>https://cocokoishi.github.io/2025/12/27/eac_arm_win/</id>
     <published>2025-12-27T10:43:00.000Z</published>
     <updated>2026-01-05T00:50:08.564Z</updated>
     
@@ -87,10 +87,10 @@
   
   <entry>
     <title>2年深度体验：Matebook E Go (8cx gen3) </title>
-    <link href="https://cocokoishi.github.io/2025/12/07/Matebook-E-Go-2023-8cx-gen3-%E6%B5%8B%E8%AF%84/"/>
-    <id>https://cocokoishi.github.io/2025/12/07/Matebook-E-Go-2023-8cx-gen3-%E6%B5%8B%E8%AF%84/</id>
+    <link href="https://cocokoishi.github.io/2025/12/07/8cxgen3_trivial/"/>
+    <id>https://cocokoishi.github.io/2025/12/07/8cxgen3_trivial/</id>
     <published>2025-12-07T14:54:00.000Z</published>
-    <updated>2025-12-19T11:32:46.892Z</updated>
+    <updated>2026-01-05T08:38:55.881Z</updated>
     
     <content type="html"><![CDATA[<h2 id="我为什么会入手这台机器"><a href="#我为什么会入手这台机器" class="headerlink" title="我为什么会入手这台机器"></a>我为什么会入手这台机器</h2><p>嗯，单纯是因为我想要一台二合一的windows设备。小众又独特，又能完美切合我的需求，最重要的是便宜点。这台平板于2023年7月份购入，当时市面上的windows板子一般都是11&#x2F;12代酷睿。这intel都是电老虎，性能凑合的同时续航极差。而华为的这款机器倒是有意思，采用了高通用三星5nm做的桌面级arm cpu（骁龙8cx gen3)，显然能耗比是吊打当时的intel 7的。<br>在geekbench数据库搜了一下，性能换算一下应该是打得过11代酷睿的，再加上价格，已经和发布时接近腰斩，于是直接入了这台机器。反正也没指望这玩意打游戏，长续航能办公加上有原汁原味的windows才是好的。<br>于是入手了，具体型号是华为Matebook E Go 2022性能版。是没有阉割的8cx gen3。</p><h2 id="8cx-gen3的性能表现"><a href="#8cx-gen3的性能表现" class="headerlink" title="8cx gen3的性能表现"></a>8cx gen3的性能表现</h2><h3 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h3><p>CPU架构采用了4核X1 3ghz+4核A78 2.4ghz，天玑9300前瞻版了属于是。<br>鉴于这平板是罕见的被动散热，所以传统的需要长时间跑分的软件就不试了，用了比较传统的cpuz。这个软件分两个版本，arm和x86版。arm下能跑到单核550分，多核3500分。x86转译下能跑到单核340，多核2250分。<br><strong>即使转译下的多核性能也打过了价位更高的1135g7,原生下更是直逼经典的i7-8700k。</strong><br>同为桌面arm cpu，也得和M1比比。在此可以引用cinebench 2024官方的分数，多核下8cx gen3为430分，作为对比m1为509分。<br>还有在android子系统下跑的gb5，可以跑到单核1120，多核5950分，不敌麒麟9030Pro，大概多核分数是A16-A17PRO的样子。<br>gb6下同设备多核6116分，结合cpu占满的时候约占12w功耗，放在极客湾的能耗曲线上大概是这个位置。<br><img src="/images/pasted-9.png" alt="" width="500"><br>因为参照物都是手机的主板所以仅供参考。从这里能看出能耗比其实还行，居然能和手机碰一碰了，这是x86当时想都不敢想的。</p><h3 id="GPU"><a href="#GPU" class="headerlink" title="GPU"></a>GPU</h3><p>GPU是骁龙888同架构的，最后一代adreno600系，规模上有16组单元，888只有6组。看起来很豪华，实际上因为架构太落后，8+gen1就秒了。<br>在windows下，这玩意GPU驱动及其拉跨，<strong>只支持DX12</strong>，其他任何图形接口都要转译。这玩意就不跑测试了，也没指望这玩意能打游戏。</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>NPU部分<strong>没有达到copilot的最低算力要求</strong>，也不会在任务管理器里面显示，也不会有软件去调用，其他部分更是如此。8cx gen3同时还是车机芯片8295的马甲，估计是卖不出去就给车企用了。</p><h2 id="实际游戏"><a href="#实际游戏" class="headerlink" title="实际游戏"></a>实际游戏</h2><p>因为ARM架构下基本上没有任何游戏，所以几乎所有游戏都是跑在转译上面的。可能这机器能原生跑的唯一一个大作就只有Minecraft。</p><h3 id="大型游戏"><a href="#大型游戏" class="headerlink" title="大型游戏"></a>大型游戏</h3><p>我尝试跑了一些年代较为久远的大型游戏，以优化差和优化好的GTA4 GTA5为代表，因为转译似乎不支持较新的指令集，在新游戏上可能会遇到更严重的性能问题。<br><img src="/images/pasted-6.png" alt="" width="500"><br><img src="/images/pasted-7.png" alt="" width="500"><br>可以看到gta4和gta5都处于完全不能玩的情况，即使已经是十几年前的游戏了。其他大型游戏也是如此。因为机器是被动散热所以性能很差，但也有一定参考价值。<br>两款游戏均在1080p左右的分辨率下，最低画质原生分辨率，GPU占用均未超过50%，大约在30%左右，可以看出转译大型游戏效率极其低下。<br>在csgo下（是的就是csgo）大概只能跑30fps左右，不能玩。</p><h4 id="大型在线游戏"><a href="#大型在线游戏" class="headerlink" title="大型在线游戏"></a>大型在线游戏</h4><p>值得一提的是，<strong>EAC不支持ARM WINDOWS</strong>，启动的时候会直接报错架构不支持并且不让你进游戏。所以这个设备完全无法游玩eac保护的游戏，包括VRChat，Apex等。（可能是因为内核驱动不支持转译）<br>理论上能刷成linux就能在转译下玩这些游戏了，反作弊在proton下是用户态的，自然是美美游玩。<br>VAC保护的游戏倒是能正常玩。steam也是跑在转译下的，但是功能一切正常。</p><h3 id="小游戏"><a href="#小游戏" class="headerlink" title="小游戏"></a>小游戏</h3><p>我也尝试跑了小游戏。这里以Minecraft为代表。因为java8并没有arm版，较新的openjdk17就有，所以老版本的mc就没戏了，只能玩1.17及以上的版本。在转译下老版本的mc非常容易崩溃，无法游玩。而原生的较新版本mc可以非常流畅的正常游玩。<br>还跑了其他独立游戏，比如东方夜雀食堂等，非常流畅，也没有显卡驱动问题。</p><h3 id="音游"><a href="#音游" class="headerlink" title="音游"></a>音游</h3><p>因为只玩过osu所以只介绍osu了</p><h4 id="OSU"><a href="#OSU" class="headerlink" title="OSU"></a>OSU</h4><p>虽然lazer是开源的，但ppy也没构建woa(windows on arm)的，所以只能跑在转译下。大家都知道lazer有严重的性能问题，所以是基本不可玩的。<br>stable倒是可以正常游玩。<br>数位板驱动这一块我用的wacom的，wacom是有原生woa驱动的。不想用官方的驱动也可以用社区的驱动。<br>stable下操作延迟并不是很明显，处于娱乐状态，想正经玩还是上正常x86 pc吧。</p><h2 id="办公体验"><a href="#办公体验" class="headerlink" title="办公体验"></a>办公体验</h2><h3 id="软件支持"><a href="#软件支持" class="headerlink" title="软件支持"></a>软件支持</h3><p>说到办公体验，对我来说只是看看网页和网课，偶尔用用office三件套而已。这方面是没有性能问题的。不过值得注意的是如果你依赖WPS，这个直到26年也是没有原生版的，而隔壁office365是原生arm的。转译下的WPS是比较卡，但也能正常使用的。  </p><h4 id="微软系"><a href="#微软系" class="headerlink" title="微软系"></a>微软系</h4><p>几乎全员适配ARM架构，经常ARM64EC，原生和转译混用。用起来丝滑流畅。</p><h4 id="Adobe系"><a href="#Adobe系" class="headerlink" title="Adobe系"></a>Adobe系</h4><p>这玩意性能就别想着剪视频了。修图这里PS LR AI等都是有原生版本的。也有了适配arm版的破解版。2019及以后的x86版应该是装不上去的，会提示未满足系统要求。比如PS2018转译下也是能正常用的。但是比较卡。</p><h4 id="国产系"><a href="#国产系" class="headerlink" title="国产系"></a>国产系</h4><p>在X Elite的推动下很多国产软件都被迫适配了arm版。即使没有，大多数情况下转译后还是能用的，并且最多也只是比较卡，功能都是正常的。</p><h4 id="开源软件"><a href="#开源软件" class="headerlink" title="开源软件"></a>开源软件</h4><p>至于开源软件们，不出意外都是有官方arm或者社区构建的arm版的。</p><h4 id="虚拟化和安卓子系统"><a href="#虚拟化和安卓子系统" class="headerlink" title="虚拟化和安卓子系统"></a>虚拟化和安卓子系统</h4><p>支援虚拟化，但不支持嵌套虚拟化，和果子一样。可以跑wsl wsa hyper-v等。wsl wsa都有显卡驱动支持，hyper-v琢磨了一下似乎没有。<br>安卓子系统是垃圾，在使用几个小时后非常容易崩溃，并且崩溃后会持续占用cpu，疑似内存泄露。使用社区构建的wsa也无法解决问题。并且子系统似乎缺乏优化，只是划个屏幕都能把性能拉满，导致非常耗电。因此不推荐使用，也不推荐有人把这平板当安卓板子买着用。</p><h4 id="qemu"><a href="#qemu" class="headerlink" title="qemu"></a>qemu</h4><p>有社区构建原生的qemu。不支持whpx，纯玩具。</p><h3 id="系统本体"><a href="#系统本体" class="headerlink" title="系统本体"></a>系统本体</h3><p>各种架构的windows11，理论上版本号一样，那么内容就差不多。这台windows11 on arm也是一直紧跟x86主线，没有系统功能上的缺失。</p><h3 id="华为生态体验"><a href="#华为生态体验" class="headerlink" title="华为生态体验"></a>华为生态体验</h3><p>华为电脑管家在这台电脑上也是x86，需要转译，非常幽默。所以就别在这机器上谈生态了。<br><strong>海狗当时很喜欢吹华为的生态无敌，网络稳定性无敌，那么这售价接近7000的平板为什么互联功能还得跑在转译下？</strong></p><h2 id="续航"><a href="#续航" class="headerlink" title="续航"></a>续航</h2><p>对于这台机器本体来说，cpu部分跑满只用12w，所以很显然soc本体的续航是很棒的。<br><img src="/images/pasted-8.png" alt="" width="500">  但是对于华为的这台机器来说，续航就不太行。大概连续办公亮屏能至少4-5h，亮度低就能到8h。这块lcd屏幕还是比较耗电的。但不管怎么说，续航也是吊打intel的二合一了。</p><h3 id="温控表现"><a href="#温控表现" class="headerlink" title="温控表现"></a>温控表现</h3><p>作为一个被动散热的设备这部分就不太好说，平时使用机身就开始微热了。<br>soc应该锁80度，超过60度就开始强制降频了，80度就到顶了，开始极端的降频。同时屏幕亮度也会锁定，最极端应该会锁到30-50%。</p><h2 id="二合一的双形态体验"><a href="#二合一的双形态体验" class="headerlink" title="二合一的双形态体验"></a>二合一的双形态体验</h2><p>这一段本来应该是亮点的，能触摸的windows不觉得很酷吗？但是我直接放下结论了。<br>windows的触摸体验就是垃圾，应用们也不会为触摸屏适配。再加上这个平板的触摸屏驱动居然是x86的，每次触摸还要转译，如果想正常流畅的使用，只能老老实实用键盘鼠标操控了。<br>微软也知道自己系统的触摸体验是屎，所以给你了一个抽象至极的折中方案：虚拟触摸板。就是笔电上的触摸板放在屏幕上模拟鼠标操作。。我已经不知道说什么了<br><img src="/images/pasted-10.png" alt="" width="500">  和笔电的唯一的区别估计就是键盘可拆了。除了能跑windows的程式，并没有看见比安卓平板更优越的地方。</p><h3 id="外观和做工，配件"><a href="#外观和做工，配件" class="headerlink" title="外观和做工，配件"></a>外观和做工，配件</h3><p>华为当年一直在全产品线上给大伙喂屎，这台也不例外，纯塑料中框加上塑料后盖。往好的说抗弯折，往坏的说廉价又垃圾，难以想象原价卖6000的板子能这么敷衍。<br>随机附赠的键盘和触控板也是纯纯的垃圾，这个触控板是我有史以来用过最垃圾的，滑动采样率有<strong>30hz</strong>吗？还会莫名其妙的意外触发，完全是没法正常用的，肉眼都能看到延迟卡顿。键盘倒是正常。</p><h3 id="屏幕"><a href="#屏幕" class="headerlink" title="屏幕"></a>屏幕</h3><p>屏幕倒是还行，12.45英寸的2560x1600 120hz 500nit，色域有100%P3。查了下是华星光电的。用起来有微微发热，比较耗电。显示素质没问题，可视角度也还行，也没有像surface有纱窗感。<br>前面提到这玩意的触摸驱动是转译的。不仅如此，这设备展示机和用户机的驱动都不一样，展示机也是转译的但是明显触摸更顺滑。我也是换成了展示机驱动，使用下来没有任何问题。可以在酷安找到驱动。</p><h2 id="其他系统支持"><a href="#其他系统支持" class="headerlink" title="其他系统支持"></a>其他系统支持</h2><p>华为的这台平板本质上是windows设备，使用的uefi引导所以理论上能启动其它系统。<br>然而根据我的研究发现只能跑windows系统。安卓这里缺乏uefi引导的系统也没有驱动。linux这里倒是有人部分适配了下，但是屏幕没驱动不亮，gpu也似乎没法正常启动。而同soc的thinkpad的armbian是根本刷不进去。生态非常垃圾。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>已经2026年了， 所以购买建议没什么用。喜欢捡垃圾的垃圾佬可以捡一台玩玩，普通用户就免了。在大多数人手里都是电子垃圾。<br>真要捡能用的二合一我也不推荐woa，我推荐lunar lake，这是神。8cx gen3&#x2F;x elite只是下位替代，windows还是得绑定x86才能用得爽。lnl也证明了x86一样可以省电，期待更美好的二合一windows板子！<br>不管怎么说是一台独特的设备，非常适合我，我用的很满意。</p><h2 id="正统续作：Matebook-Edge"><a href="#正统续作：Matebook-Edge" class="headerlink" title="正统续作：Matebook Edge"></a>正统续作：Matebook Edge</h2><p>Matebook Edge是时隔几年后Matebook E的唯一正统续作，原班人马做的，设计模具终于是重回高端，可惜不再是windows了，也没有装woa的可能。<br><strong>我看MateBook Edge搞得不错，模具极大升级，发热噪音基本消灭，重量控制，用户体验也受重视，如果用的是lunar lake+windows，edge就是我理想中的二合一笔电。</strong></p>]]></content>
     
@@ -102,19 +102,17 @@
     
     
     
-    <category term="玩机" scheme="https://cocokoishi.github.io/categories/%E7%8E%A9%E6%9C%BA/"/>
     
-    
-    <category term="玩机" scheme="https://cocokoishi.github.io/tags/%E7%8E%A9%E6%9C%BA/"/>
+    <category term="Technophile" scheme="https://cocokoishi.github.io/tags/Technophile/"/>
     
   </entry>
   
   <entry>
     <title>rdp经常意外断联故障</title>
-    <link href="https://cocokoishi.github.io/2025/08/12/rdp%E7%BB%8F%E5%B8%B8%E6%84%8F%E5%A4%96%E6%96%AD%E8%81%94%E6%95%85%E9%9A%9C/"/>
-    <id>https://cocokoishi.github.io/2025/08/12/rdp%E7%BB%8F%E5%B8%B8%E6%84%8F%E5%A4%96%E6%96%AD%E8%81%94%E6%95%85%E9%9A%9C/</id>
+    <link href="https://cocokoishi.github.io/2025/08/12/rdp_error/"/>
+    <id>https://cocokoishi.github.io/2025/08/12/rdp_error/</id>
     <published>2025-08-12T15:26:00.000Z</published>
-    <updated>2025-12-19T11:33:02.328Z</updated>
+    <updated>2026-01-05T08:39:38.348Z</updated>
     
     <content type="html"><![CDATA[<p>在近期对一台基于Ryzen 2200G的电脑进行rdp连接的时候，经常会出现掉线的情况。<br>配置：<br>处理器：AMD Ryzen 3 2200G<br>内存：16GB DDR4 2666 MHz<br>显卡：集成 Radeon Vega 8<br>操作系统：Windows 10 LTSC 2021<br>网络环境：小米 AX3000T（有线连接）<br>RDP 客户端与主机版本：均为 Windows 10 LTSC 2021  </p><p>排查了很久之后，注意到Vega 8的显存是固定分配为128MB的，开机后显卡的显存会被占满。虽然是虚拟分配的，但或许是这里出了问题。我尝试设置成1g，恼人的断连问题就解决了。<br>这实在是太神奇了，bug出现在了未预料的地方，也提醒核心显卡的显存分配也是会对实际使用产生影响的。</p>]]></content>
     
@@ -126,17 +124,17 @@
     
     
     
-    <category term="玩机" scheme="https://cocokoishi.github.io/categories/%E7%8E%A9%E6%9C%BA/"/>
+    <category term="Technophile" scheme="https://cocokoishi.github.io/categories/Technophile/"/>
     
     
-    <category term="玩机" scheme="https://cocokoishi.github.io/tags/%E7%8E%A9%E6%9C%BA/"/>
+    <category term="Technophile" scheme="https://cocokoishi.github.io/tags/Technophile/"/>
     
   </entry>
   
   <entry>
     <title>VRChat 世界脚本的简单分析</title>
-    <link href="https://cocokoishi.github.io/2025/08/01/vrchat-%E4%B8%96%E7%95%8C%E8%84%9A%E6%9C%AC%E7%9A%84%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90/"/>
-    <id>https://cocokoishi.github.io/2025/08/01/vrchat-%E4%B8%96%E7%95%8C%E8%84%9A%E6%9C%AC%E7%9A%84%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90/</id>
+    <link href="https://cocokoishi.github.io/2025/08/01/vrchat_udon_anal/"/>
+    <id>https://cocokoishi.github.io/2025/08/01/vrchat_udon_anal/</id>
     <published>2025-08-01T11:25:00.000Z</published>
     <updated>2025-12-05T08:07:40.514Z</updated>
     
@@ -159,8 +157,8 @@
   
   <entry>
     <title>VRChat 无工程文件重新上传世界</title>
-    <link href="https://cocokoishi.github.io/2025/03/04/vrchat-hotswap%E5%9C%B0%E5%9B%BE/"/>
-    <id>https://cocokoishi.github.io/2025/03/04/vrchat-hotswap%E5%9C%B0%E5%9B%BE/</id>
+    <link href="https://cocokoishi.github.io/2025/03/04/vrchat_hotswap_map/"/>
+    <id>https://cocokoishi.github.io/2025/03/04/vrchat_hotswap_map/</id>
     <published>2025-03-04T10:29:00.000Z</published>
     <updated>2025-12-25T01:55:35.751Z</updated>
     
@@ -184,9 +182,34 @@
   </entry>
   
   <entry>
+    <title>VRChat 地图VIP权限的绕过</title>
+    <link href="https://cocokoishi.github.io/2025/02/16/VRChat-bypass-vip/"/>
+    <id>https://cocokoishi.github.io/2025/02/16/VRChat-bypass-vip/</id>
+    <published>2025-02-16T08:40:00.000Z</published>
+    <updated>2026-01-05T08:57:31.423Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>这是一篇帮助地图作者更好保护自己地图资产不被侵犯的文章，并不是教你如何免费游玩地图付费内容的恶意内容。</p><h2 id="地图vip权限的方式"><a href="#地图vip权限的方式" class="headerlink" title="地图vip权限的方式"></a>地图vip权限的方式</h2><p>我们介绍四种。</p><h3 id="Udon网络获取"><a href="#Udon网络获取" class="headerlink" title="Udon网络获取"></a>Udon网络获取</h3><p>使用udon脚本从远端服务器下载json文本，然后使用udon脚本解析并且赋予权限<br>代表：HANI.<br>缺点：本机玩家访问远端服务器，会信任系统根证书，可以轻易中间人攻击然后替换。<br>优点：可实时更新。</p><h3 id="Udon密码锁"><a href="#Udon密码锁" class="headerlink" title="Udon密码锁"></a>Udon密码锁</h3><p>用静态的密码锁解锁更高级的功能。  </p><p>缺点：没有任何安全性，密码就在地图assetbundle里。大佬eeacks甚至创建了一个专门的频道用来给大家自动破解地图密码。</p><h3 id="用户名匹配"><a href="#用户名匹配" class="headerlink" title="用户名匹配"></a>用户名匹配</h3><p>直接检测用户名是否合法，合法就给权限</p><p>优点：十分安全，只有外挂才有办法。<br>缺点：列表需要每次和地图一起更新</p><h3 id="官方途径"><a href="#官方途径" class="headerlink" title="官方途径"></a>官方途径</h3><p>用官方的途径管理权限</p><p>优点：十分安全，只有外挂才有办法。<br>缺点：官方抽水太狠</p><h2 id="我推荐的"><a href="#我推荐的" class="headerlink" title="我推荐的"></a>我推荐的</h2><p>用户名匹配。或者非常混淆的密码锁。或者再搞点sitycat看到我的视频（破地图密码的）吓得连夜把他的引流模型房给改成用户名匹配了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;这是一篇帮助地图作者更好保护自己地图资产不被侵犯的文章，并不是教你如何免费游玩地图付费内容的恶意内容。&lt;/p&gt;
+&lt;h2 id=&quot;地图vip权</summary>
+      
+    
+    
+    
+    <category term="VRChat" scheme="https://cocokoishi.github.io/categories/VRChat/"/>
+    
+    
+    <category term="VRChat" scheme="https://cocokoishi.github.io/tags/VRChat/"/>
+    
+  </entry>
+  
+  <entry>
     <title>阿里云 2核4g/2核2g开mc服务器体验</title>
-    <link href="https://cocokoishi.github.io/2024/09/01/2%E6%A0%B84g-2%E6%A0%B82g%E5%BC%80mc%E6%9C%8D%E4%BD%93%E9%AA%8C/"/>
-    <id>https://cocokoishi.github.io/2024/09/01/2%E6%A0%B84g-2%E6%A0%B82g%E5%BC%80mc%E6%9C%8D%E4%BD%93%E9%AA%8C/</id>
+    <link href="https://cocokoishi.github.io/2024/09/01/2c2g_2c4g_jvav_minecraft/"/>
+    <id>https://cocokoishi.github.io/2024/09/01/2c2g_2c4g_jvav_minecraft/</id>
     <published>2024-09-01T15:22:00.000Z</published>
     <updated>2026-01-04T15:59:10.328Z</updated>
     
@@ -207,10 +230,10 @@
   
   <entry>
     <title>LG G7 4+64刷windows on arm</title>
-    <link href="https://cocokoishi.github.io/2024/01/30/LG-G7-4-64%E5%88%B7windows-on-arm/"/>
-    <id>https://cocokoishi.github.io/2024/01/30/LG-G7-4-64%E5%88%B7windows-on-arm/</id>
+    <link href="https://cocokoishi.github.io/2024/01/30/lgg7_arm_win/"/>
+    <id>https://cocokoishi.github.io/2024/01/30/lgg7_arm_win/</id>
     <published>2024-01-30T03:05:00.000Z</published>
-    <updated>2025-12-04T13:06:56.526Z</updated>
+    <updated>2026-01-05T08:39:12.309Z</updated>
     
     <content type="html"><![CDATA[<p>首先是解bl锁。和华为mate50&#x2F;p60一样，被神秘人士泄露了工程机或者工厂文件，因此使用9008刷入abl分区之后即可获得临时的无avb验证状态。然后在此基础上获得oem解锁以得到bl锁的解锁。</p><p>在这之后就可以简单的一键刷入。使用了某贼工具箱，虽然没适配，但是非常简单。</p><p>可能是因为内存太小，只要刷入显卡驱动就会出现如下的无限蓝屏</p><details><summary>蓝屏</summary><img src="/images/pasted-0.png" width="400"></details><p>因此只能忍痛把显示卡驱动删掉，然后再启动就没问题了。</p><p>娱乐价值远大于实际意义，没显卡驱动什么都做不了，测了点东西就刷回去当备用机了。</p><p>相关视频：<a href="https://www.bilibili.com/video/BV1m4Y4zsEa2/">https://www.bilibili.com/video/BV1m4Y4zsEa2/</a></p>]]></content>
     
@@ -223,10 +246,10 @@
     
     
     
-    <category term="刷机" scheme="https://cocokoishi.github.io/categories/%E5%88%B7%E6%9C%BA/"/>
+    <category term="Technophile" scheme="https://cocokoishi.github.io/categories/Technophile/"/>
     
     
-    <category term="刷机" scheme="https://cocokoishi.github.io/tags/%E5%88%B7%E6%9C%BA/"/>
+    <category term="Technophile" scheme="https://cocokoishi.github.io/tags/Technophile/"/>
     
   </entry>
   
