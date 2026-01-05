@@ -118,7 +118,7 @@
     <link href="https://cocokoishi.github.io/2025/08/12/rdp_error/"/>
     <id>https://cocokoishi.github.io/2025/08/12/rdp_error/</id>
     <published>2025-08-12T15:26:00.000Z</published>
-    <updated>2026-01-05T08:39:38.348Z</updated>
+    <updated>2026-01-05T14:16:43.708Z</updated>
     
     <content type="html"><![CDATA[<p>在近期对一台基于Ryzen 2200G的电脑进行rdp连接的时候，经常会出现掉线的情况。<br>配置：<br>处理器：AMD Ryzen 3 2200G<br>内存：16GB DDR4 2666 MHz<br>显卡：集成 Radeon Vega 8<br>操作系统：Windows 10 LTSC 2021<br>网络环境：小米 AX3000T（有线连接）<br>RDP 客户端与主机版本：均为 Windows 10 LTSC 2021  </p><p>排查了很久之后，注意到Vega 8的显存是固定分配为128MB的，开机后显卡的显存会被占满。虽然是虚拟分配的，但或许是这里出了问题。我尝试设置成1g，恼人的断连问题就解决了。<br>这实在是太神奇了，bug出现在了未预料的地方，也提醒核心显卡的显存分配也是会对实际使用产生影响的。</p>]]></content>
     
@@ -130,10 +130,10 @@
     
     
     
-    <category term="Technophile" scheme="https://cocokoishi.github.io/categories/Technophile/"/>
+    <category term="Retrophile" scheme="https://cocokoishi.github.io/categories/Retrophile/"/>
     
     
-    <category term="Technophile" scheme="https://cocokoishi.github.io/tags/Technophile/"/>
+    <category term="Retrophile" scheme="https://cocokoishi.github.io/tags/Retrophile/"/>
     
   </entry>
   
@@ -217,7 +217,7 @@
     <link href="https://cocokoishi.github.io/2024/09/01/2c2g_2c4g_jvav_minecraft/"/>
     <id>https://cocokoishi.github.io/2024/09/01/2c2g_2c4g_jvav_minecraft/</id>
     <published>2024-09-01T15:22:00.000Z</published>
-    <updated>2026-01-05T13:53:38.850Z</updated>
+    <updated>2026-01-05T14:16:01.747Z</updated>
     
     <content type="html"><![CDATA[<p>嗯就简单说一下， 因为正好有开联机的需求，手上又有这配置的服务器<br>先简单介绍一下配置，阿里云的超便宜服务器，cpu都是2.5ghz的，可能是Skylake架构的服务器版，反正单核性能挺烂。<br>开的是mc java版 1.21 purpur，原版服务器。没装几个插件，viaversion系列和fakeplayer，luckyperms主要，不太占性能。<br>系统均是debian11，未安装宝塔面板，图形化界面等任何东西，只有java和系统依赖。鉴于<strong>java版mc是单核游戏</strong>，所以原版服务器双核足以。生电服务器可能会用多核优化服务端，不过因为插件不兼容问题，加上我玩的比较水，就没测了。在2g服务器下，当java启动参数分配超过1g的内存后，就会开始使用swap，导致服务器非常卡顿。而4g版在2-3g后才会出现内存交换。<br>在2g服务器下，几乎无法使用鞘翅满速飞行逛图，如果遇到未加载区块，服务器有大概率会崩溃关闭。4g服务器则没问题，非常优秀的性能。（均为视距16，模拟距离12，后来4g服务器视距增加到24依然流畅。）。<br>玩家承载方面，2g服务器可能最多只能满足1-3人低强度游玩（当然必须把视距拉到8了，不然实在没法承载多人，单人玩倒是还凑合），4g可以到1-5人以上，取决于网络带宽（3M就能5人低强度了应该，能设置压缩数据包传输）<br>总而言之<strong>1024mb是个分水岭</strong>，往上走就能多承载超多的玩家。不过并没有人和我玩，我也不知道能承载多少人。<br>有尝试加入一些优化插件，不过因为优化插件多不从底层优化，都是卡了就降视距，降ai智商禁止流水，这里主要是内存瓶颈使得优化措施实在没卵用，就不讨论了。</p><h2 id="列表总结"><a href="#列表总结" class="headerlink" title="列表总结"></a>列表总结</h2><img src="/images/pasted-23.png" alt="" width="500"><h2 id="服务器现状"><a href="#服务器现状" class="headerlink" title="服务器现状"></a>服务器现状</h2><p>我们的服务器仍然在运营（直到2026年还在哦，2030年前都会有）！不过服务器很孤独，基本上只有我和fakeplayers插件的假人在玩，如果你也想和我玩，欢迎加入！</p><img src="/images/pasted-24.png" alt="" width="500"><p>这篇文章主要是事后回忆写出来的，希望能对你有些帮助！</p>]]></content>
     
@@ -229,7 +229,7 @@
     
     
     
-    <category term="Technophile" scheme="https://cocokoishi.github.io/categories/Technophile/"/>
+    <category term="Retrophile" scheme="https://cocokoishi.github.io/categories/Retrophile/"/>
     
     
     <category term="Minecraft" scheme="https://cocokoishi.github.io/tags/Minecraft/"/>
@@ -243,7 +243,7 @@
     <link href="https://cocokoishi.github.io/2024/01/30/lgg7_arm_win/"/>
     <id>https://cocokoishi.github.io/2024/01/30/lgg7_arm_win/</id>
     <published>2024-01-30T03:05:00.000Z</published>
-    <updated>2026-01-05T08:39:12.309Z</updated>
+    <updated>2026-01-05T14:15:57.288Z</updated>
     
     <content type="html"><![CDATA[<p>首先是解bl锁。和华为mate50&#x2F;p60一样，被神秘人士泄露了工程机或者工厂文件，因此使用9008刷入abl分区之后即可获得临时的无avb验证状态。然后在此基础上获得oem解锁以得到bl锁的解锁。</p><p>在这之后就可以简单的一键刷入。使用了某贼工具箱，虽然没适配，但是非常简单。</p><p>可能是因为内存太小，只要刷入显卡驱动就会出现如下的无限蓝屏</p><details><summary>蓝屏</summary><img src="/images/pasted-0.png" width="400"></details><p>因此只能忍痛把显示卡驱动删掉，然后再启动就没问题了。</p><p>娱乐价值远大于实际意义，没显卡驱动什么都做不了，测了点东西就刷回去当备用机了。</p><p>相关视频：<a href="https://www.bilibili.com/video/BV1m4Y4zsEa2/">https://www.bilibili.com/video/BV1m4Y4zsEa2/</a></p>]]></content>
     
@@ -256,10 +256,10 @@
     
     
     
-    <category term="Technophile" scheme="https://cocokoishi.github.io/categories/Technophile/"/>
+    <category term="Retrophile" scheme="https://cocokoishi.github.io/categories/Retrophile/"/>
     
     
-    <category term="Technophile" scheme="https://cocokoishi.github.io/tags/Technophile/"/>
+    <category term="Retrophile" scheme="https://cocokoishi.github.io/tags/Retrophile/"/>
     
   </entry>
   
