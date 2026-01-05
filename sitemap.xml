@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cocokoishi.github.io/about/index.html</loc>
+    
+    <lastmod>2026-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cocokoishi.github.io/2025/02/16/VRChat-bypass-vip/</loc>
+    
+    <lastmod>2026-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cocokoishi.github.io/2024/09/01/2c2g_2c4g_jvav_minecraft/</loc>
     
     <lastmod>2026-01-05</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://cocokoishi.github.io/2025/12/27/eac_arm_win/</loc>
-    
-    <lastmod>2026-01-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cocokoishi.github.io/2025/02/16/VRChat-bypass-vip/</loc>
     
     <lastmod>2026-01-05</lastmod>
     
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://cocokoishi.github.io/about/index.html</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cocokoishi.github.io/2025/08/01/vrchat_udon_anal/</loc>
     
     <lastmod>2025-12-05</lastmod>
@@ -110,6 +110,13 @@
 
   
   <url>
+    <loc>https://cocokoishi.github.io/tags/VRChat/</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://cocokoishi.github.io/tags/Minecraft/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -118,13 +125,6 @@
   
   <url>
     <loc>https://cocokoishi.github.io/tags/Technophile/</loc>
-    <lastmod>2026-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cocokoishi.github.io/tags/VRChat/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -140,14 +140,14 @@
 
   
   <url>
-    <loc>https://cocokoishi.github.io/categories/Technophile/</loc>
+    <loc>https://cocokoishi.github.io/categories/VRChat/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cocokoishi.github.io/categories/VRChat/</loc>
+    <loc>https://cocokoishi.github.io/categories/Technophile/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
